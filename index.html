@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RIFT – Guerra nell'Abisso</title>
+  <style>
+    body {
+      margin: 0; padding: 0; font-family: 'Arial', sans-serif;
+      background: #0a0a0a; color: #e0e0e0; line-height: 1.6;
+    }
+    header {
+      height: 100vh; background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('https://via.placeholder.com/1920x1080/000000/FF0000?text=RIFT');
+      background-size: cover; display: flex; align-items: center; justify-content: center; text-align: center;
+    }
+    .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+    h1 { font-size: 3.5rem; color: #ff3333; margin: 0; }
+    .tagline { font-size: 1.4rem; color: #aaa; }
+    button {
+      background: #ff3333; color: white; padding: 15px 30px; border: none;
+      font-size: 1.2rem; margin: 20px 10px; cursor: pointer; border-radius: 5px;
+    }
+    button:hover { background: #cc0000; }
+    .section { padding: 60px 0; border-top: 1px solid #333; }
+    audio { width: 100%; margin: 20px 0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>RIFT</h1>
+      <p style="font-size:2rem; margin:10px 0;">Guerra nell'Abisso</p>
+      <p class="tagline">Un romanzo di fantascienza apocalittica</p>
+      <p>di <strong>Xhulio Guranjaku</strong></p>
+      <br>
+      <a href="#acquista"><button>Leggi il Libro Gratis (Estratti)</button></a>
+      <a href="#download"><button>Scarica PDF Completo</button></a>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>Sinossi</h2>
+      <p>03:17. Il CERN apre un portale dimensionale.<br>
+      Dal Rift emerge un'orda di creature infernali.<br>
+      In poche ore il mondo precipita nel caos.</p>
+      <p><strong>Elena, Nikolai e Aiko</strong> sono tra i pochi ancora vivi.<br>
+      La guerra contro l'Abisso è iniziata.</p>
+    </div>
+
+    <div class="section">
+      <h2>Colonna Sonora Originale</h2>
+      <audio controls>
+        <source src="Rift.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'audio.
+      </audio>
+      <p><em>Bring the portal is open...</em></p>
+    </div>
+
+    <div class="section" id="estratti">
+      <h2>Leggi i primi capitoli</h2>
+      <p><a href="capitolo1.html" target="_blank">→ Capitolo 1 (CERN)</a></p>
+      <p><a href="capitolo2.html" target="_blank">→ Capitolo 2 (Ginevra in fiamme)</a></p>
+    </div>
+
+    <div class="section" id="download">
+      <h2>Scarica il libro completo</h2>
+      <a href="RIFT_Guerra_nell_Abisso_PRO.pdf" download>
+        <button>📥 Scarica PDF (Gratis)</button>
+      </a>
+      <p><small>Prima edizione 2026 © Xhulio Guranjaku</small></p>
+    </div>
+
+    <div class="section">
+      <h2>Multilingua</h2>
+      <p>EN | FR | DE | ES | IT</p>
+      <!-- Puoi aggiungere altre pagine dopo -->
+    </div>
+
+  </div>
+
+</body>
+</html>
